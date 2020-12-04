@@ -1,15 +1,19 @@
 import React, {Component} from 'react';
-
-
+import Man from "./Man/Man";
 
 class Mans extends Component {
 
 
     render() {
-        let {item} = this.props;
+        let {mans} = this.state;
         return (
             <div>
-                Name: {item.name}, age: {item.age}.
+                {mans.map(value => {
+                    return(<Man item={value} key={value.id}/>)
+                })}
+
+                <Man/>
+
             </div>
         );
     }

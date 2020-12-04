@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a134835a-f80d-4d3c-bb7a-dc496efe0a82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Couples/Couple/Couple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Couples/Couples.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mans/Man/Man.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mans/Mans.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Womans/Woman/Woman.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Womans/Womans.js" afterDir="false" />
+    <list default="true" id="a134835a-f80d-4d3c-bb7a-dc496efe0a82" name="Default Changelist" comment="problem with 'name'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mans/Man/Man.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mans/Man/Man.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mans/Mans.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mans/Mans.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +76,17 @@
       <updated>1607029963267</updated>
       <workItem from="1607029964690" duration="1763000" />
       <workItem from="1607033904184" duration="776000" />
-      <workItem from="1607086337186" duration="6453000" />
+      <workItem from="1607086337186" duration="7068000" />
+      <workItem from="1607093727088" duration="3028000" />
     </task>
+    <task id="LOCAL-00001" summary="problem with 'name'">
+      <created>1607093096918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607093096918</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +103,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="problem with 'name'" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem with 'name'" />
   </component>
 </project>

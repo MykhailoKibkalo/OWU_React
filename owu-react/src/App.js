@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Mans from "./Mans/Mans";
+import Man from "./Mans/Man/Man";
 import './App.css'
 class App extends Component {
     state = {
