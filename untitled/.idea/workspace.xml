@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d80ee09e-0d06-4ce9-92f5-1540dc43318a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../my-react-project/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../my-react-project/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../owu-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../owu-react/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../owu-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../owu-react/src/Couples/Couples.js" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/src/Couples/Couples.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../owu-react/src/Mans/Man/Man.js" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/src/Mans/Man/Man.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../owu-react/src/Mans/Mans.js" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/src/Mans/Mans.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../owu-react/src/Womans/Woman/Woman.js" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/src/Womans/Woman/Woman.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../owu-react/src/Womans/Womans.js" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/src/Womans/Womans.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1myogxuZ8SjxHFfCba4Pn8aUvAN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d80ee09e-0d06-4ce9-92f5-1540dc43318a" name="Default Changelist" comment="" />
+      <created>1610475306884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610475306884</updated>
+      <workItem from="1610475308028" duration="13225000" />
+      <workItem from="1610624399254" duration="4700000" />
+      <workItem from="1610629146339" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

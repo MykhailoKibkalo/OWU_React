@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
+import AllUser from "./AllUser/AllUser";
 
-class Couples extends Component {
+class App extends Component {
     render() {
         return (
             <div>
-                
+                <AllUser/>
             </div>
         );
     }
 }
 
-export default Couples;
+export default App;
