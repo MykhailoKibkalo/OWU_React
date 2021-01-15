@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a134835a-f80d-4d3c-bb7a-dc496efe0a82" name="Default Changelist" comment="problem with mans">
-      <change beforePath="$PROJECT_DIR$/../my-react-project/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../my-react-project/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/all-user/AllUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/post/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/services/PostService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/services/UserService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/user/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Couples/Couples.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Couples/Couples.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mans/Man/Man.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mans/Man/Man.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mans/Mans.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mans/Mans.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Womans/Woman/Woman.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Womans/Woman/Woman.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Womans/Womans.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Womans/Womans.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Couples/Couple/Couple.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/all-post/AllPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Couples/Couples.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mans/Man/Man.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mans/Mans.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Womans/Woman/Woman.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Womans/Womans.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react21/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react21/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +34,35 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="less4" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="master" />
+        <entry key="$PROJECT_DIR$/.." value="lesson3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -53,7 +88,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -93,6 +128,7 @@
       <workItem from="1607259878503" duration="418000" />
       <workItem from="1610357211316" duration="91000" />
       <workItem from="1610357944159" duration="21000" />
+      <workItem from="1610631978668" duration="19099000" />
     </task>
     <task id="LOCAL-00001" summary="problem with 'name'">
       <created>1607093096918</created>

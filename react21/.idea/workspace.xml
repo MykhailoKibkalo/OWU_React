@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58c6f762-890a-427f-84fc-6cdf5dd8dbae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AllUser/AllUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/Service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-react-project/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../my-react-project/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../owu-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../owu-react/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../owu-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../owu-react/src/Couples/Couples.js" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/src/Couples/Couples.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../owu-react/src/Mans/Man/Man.js" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/src/Mans/Man/Man.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../owu-react/src/Mans/Mans.js" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/src/Mans/Mans.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../owu-react/src/Womans/Woman/Woman.js" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/src/Womans/Woman/Woman.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../owu-react/src/Womans/Womans.js" beforeDir="false" afterPath="$PROJECT_DIR$/../owu-react/src/Womans/Womans.js" afterDir="false" />
-    </list>
+    <list default="true" id="58c6f762-890a-427f-84fc-6cdf5dd8dbae" name="Default Changelist" comment="less3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +15,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="less2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1n3qXh3zQ8KWQXyv5rRFol45npM" />
@@ -71,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610629163432</updated>
       <workItem from="1610629164833" duration="2443000" />
+      <workItem from="1610631813063" duration="122000" />
     </task>
     <servers />
   </component>
@@ -87,5 +80,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="less3" />
+    <option name="LAST_COMMIT_MESSAGE" value="less3" />
   </component>
 </project>
