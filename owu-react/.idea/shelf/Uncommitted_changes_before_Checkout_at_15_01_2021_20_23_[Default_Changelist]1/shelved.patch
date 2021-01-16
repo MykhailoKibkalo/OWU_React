@@ -1,0 +1,93 @@
+Index: src/App.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.Mans {\r\n    width: 30%;\r\n    border: 4px double black ;\r\n}\r\n\r\n.Womans {\r\n    width: 30%;\r\n    border: 4px double black ;\r\n}\r\n\r\n.Couples {\r\n    width: 40%;\r\n    border: 4px double black ;\r\n}\r\n\r\n.Table {\r\n    background: silver;\r\n    display: flex;\r\n}\r\n\r\np {\r\n    text-align: center;\r\n    font-size: 20px;\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/App.css b/src/App.css
+--- a/src/App.css	(revision a394d6d3e6f6f6b0d5722b78b6d96f09d25b3861)
++++ b/src/App.css	(date 1610735007643)
+@@ -1,24 +1,0 @@
+-.Mans {
+-    width: 30%;
+-    border: 4px double black ;
+-}
+-
+-.Womans {
+-    width: 30%;
+-    border: 4px double black ;
+-}
+-
+-.Couples {
+-    width: 40%;
+-    border: 4px double black ;
+-}
+-
+-.Table {
+-    background: silver;
+-    display: flex;
+-}
+-
+-p {
+-    text-align: center;
+-    font-size: 20px;
+-}
+\ No newline at end of file
+Index: src/App.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React, {Component} from 'react';\r\nimport Mans from \"./Mans/Mans\";\r\nimport Man from \"./Mans/Man/Man\";\r\nimport './App.css'\r\nclass App extends Component {\r\n    state = {\r\n        mans : [\r\n            {id:1,name: 'andrey', age: 50, wife_id: 10},\r\n            {id:2,name: 'viktor', age: 25, wife_id: 9},\r\n            {id:3,name: 'nazar', age: 39, wife_id: 8},\r\n            {id:4,name: 'sasha', age: 18, wife_id: 7},\r\n            {id:5,name: 'yra', age: 41, wife_id: 6}\r\n        ],\r\n        womans : [\r\n            {id:6,name: 'anya', age: 29, husband_id: 5},\r\n            {id:7,name: 'alina', age: 15, husband_id: 4},\r\n            {id:8,name: 'ira', age: 31, husband_id: 3},\r\n            {id:9,name: 'diana', age: 22, husband_id: 2},\r\n            {id:10,name: 'yulia', age: 21, husband_id: 1}\r\n        ],\r\n        couples : [],\r\n    }\r\n    render() {\r\n        return (\r\n            <div className={'Table'}>\r\n                <div className={'Mans'}>\r\n                    <p>Mans</p>\r\n                    <Mans/>\r\n                </div>\r\n\r\n                <div className={'Womans'}>\r\n                    <p>Womans</p>\r\n                    {/*<Womans/>*/}\r\n                </div>\r\n\r\n                <div className={'Couples'}>\r\n                    <p>Couples</p>\r\n                    {/*<Couples/>*/}\r\n                </div>\r\n            </div>\r\n        );\r\n    }\r\n}\r\n\r\nexport default App;
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/App.js b/src/App.js
+--- a/src/App.js	(revision a394d6d3e6f6f6b0d5722b78b6d96f09d25b3861)
++++ b/src/App.js	(date 1610735007651)
+@@ -1,45 +1,0 @@
+-import React, {Component} from 'react';
+-import Mans from "./Mans/Mans";
+-import Man from "./Mans/Man/Man";
+-import './App.css'
+-class App extends Component {
+-    state = {
+-        mans : [
+-            {id:1,name: 'andrey', age: 50, wife_id: 10},
+-            {id:2,name: 'viktor', age: 25, wife_id: 9},
+-            {id:3,name: 'nazar', age: 39, wife_id: 8},
+-            {id:4,name: 'sasha', age: 18, wife_id: 7},
+-            {id:5,name: 'yra', age: 41, wife_id: 6}
+-        ],
+-        womans : [
+-            {id:6,name: 'anya', age: 29, husband_id: 5},
+-            {id:7,name: 'alina', age: 15, husband_id: 4},
+-            {id:8,name: 'ira', age: 31, husband_id: 3},
+-            {id:9,name: 'diana', age: 22, husband_id: 2},
+-            {id:10,name: 'yulia', age: 21, husband_id: 1}
+-        ],
+-        couples : [],
+-    }
+-    render() {
+-        return (
+-            <div className={'Table'}>
+-                <div className={'Mans'}>
+-                    <p>Mans</p>
+-                    <Mans/>
+-                </div>
+-
+-                <div className={'Womans'}>
+-                    <p>Womans</p>
+-                    {/*<Womans/>*/}
+-                </div>
+-
+-                <div className={'Couples'}>
+-                    <p>Couples</p>
+-                    {/*<Couples/>*/}
+-                </div>
+-            </div>
+-        );
+-    }
+-}
+-
+-export default App;
+\ No newline at end of file
