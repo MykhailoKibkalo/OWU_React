@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a134835a-f80d-4d3c-bb7a-dc496efe0a82" name="Default Changelist" comment="problem with mans">
-      <change afterPath="$PROJECT_DIR$/src/component/all-user/AllUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/post/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/services/PostService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/services/UserService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/user/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Couples/Couple/Couple.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/all-post/AllPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Couples/Couples.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mans/Man/Man.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mans/Mans.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Womans/Woman/Woman.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Womans/Womans.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react21/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react21/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a134835a-f80d-4d3c-bb7a-dc496efe0a82" name="Default Changelist" comment="change :id to :name&#10;fix second page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
