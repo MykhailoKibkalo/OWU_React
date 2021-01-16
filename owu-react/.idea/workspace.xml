@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a134835a-f80d-4d3c-bb7a-dc496efe0a82" name="Default Changelist" comment="lesson 6">
-      <change afterPath="$PROJECT_DIR$/src/component/services/services.js" afterDir="false" />
+    <list default="true" id="a134835a-f80d-4d3c-bb7a-dc496efe0a82" name="Default Changelist" comment="change :id to :name&#10;fix second page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/AllUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/FullUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/FullUsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/User.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/services/ContextServices.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
