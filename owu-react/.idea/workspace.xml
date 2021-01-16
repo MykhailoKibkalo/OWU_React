@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a134835a-f80d-4d3c-bb7a-dc496efe0a82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    <list default="true" id="a134835a-f80d-4d3c-bb7a-dc496efe0a82" name="Default Changelist" comment="change :id to :name&#10;fix second page">
       <change beforePath="$PROJECT_DIR$/src/component/FullPeople/FullPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/FullPeople/FullPeople.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/People/People.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/People/People.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Peoples/Peoples.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Peoples/Peoples.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Service/Service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Service/Service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +73,14 @@
       <workItem from="1607029964690" duration="1763000" />
       <workItem from="1607033904184" duration="776000" />
     </task>
+    <task id="LOCAL-00001" summary="change :id to :name&#10;fix second page">
+      <created>1610834973603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610834973603</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +109,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change :id to :name&#10;fix second page" />
+    <option name="LAST_COMMIT_MESSAGE" value="change :id to :name&#10;fix second page" />
   </component>
 </project>

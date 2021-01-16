@@ -8,14 +8,12 @@ class FullPeople extends Component {
 
      componentDidMount() {
         let {id,results} = this.props;
-        console.log(results);
         const res = results.filter(value => value.name === id);
         this.setState({nameID: res[0]});
     }
 
     render() {
         let {nameID} = this.state;
-        console.log(nameID.name);
         return (
             <div>
                 {nameID &&
