@@ -6,25 +6,23 @@ import FullPeople from "../FullPeople/FullPeople";
 
 class Peoples extends Component {
 
-    state = {peoples:[]};
+    state = {peoples: []};
     service = new Service();
 
     async componentDidMount() {
-       let peoples = await this.service.getALLPeople();
-       for (let i = 0; i < peoples.results.length; i++) {
-           peoples.results[i].id = i + 1;
-           this.setState({peoples});
-       }
+        let peoples = await this.service.getALLPeople();
+        this.setState({peoples});
     }
 
-     nextSlide = () => {
-        let {peoples:{next}} = this.state;
-        this.service.doFetch(next).then(value => this.setState({peoples:value}))
-     }
+
+    nextSlide = () => {
+        let {peoples: {next}} = this.state;
+        this.service.doFetch(next).then(value => this.setState({peoples: value}))
+    }
 
     previousSlide = () => {
-        let {peoples:{previous}} = this.state;
-        this.service.doFetch(previous).then(value => this.setState({peoples:value}))
+        let {peoples: {previous}} = this.state;
+        this.service.doFetch(previous).then(value => this.setState({peoples: value}))
     }
 
 
@@ -32,22 +30,23 @@ class Peoples extends Component {
         let {peoples: {results, next, previous}} = this.state;
         let {match: {url}} = this.props;
 
+
         return (
             <div>
-                {results && results.map(value => <People key={value.id} peoples={value}/>)}
+                {results && results.map(value => <People key={value.name} peoples={value}/>)}
 
                 <hr/>
                 <Switch>
-                <Route path={url +'/:id'} render={(props) => {
-                    let {match: {params: {id}}} = props;
-                    console.log(id);
-                    return (
-                    <div>
-                        <FullPeople key={id} id={id}/>
+                    <Route path={url + '/:id'} render={(props) => {
+                        let {match: {params: {id}}} = props;
 
-                    </div>
-                   );
-                }}/>
+                        return (
+                            <div>
+                                <FullPeople key={id} id={id} results={results}/>
+
+                            </div>
+                        );
+                    }}/>
                 </Switch>
                 <hr/>
                 <button onClick={this.previousSlide} disabled={!previous}>

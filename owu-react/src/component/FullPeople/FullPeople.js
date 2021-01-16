@@ -3,30 +3,37 @@ import {Service} from "../Service/Service";
 
 class FullPeople extends Component {
 
-    state = {chosenPeople: []};
+    state = {chosenPeople: [], nameID: ''};
     service = new Service();
-    async componentDidMount() {
-        let {id} = this.props;
-        await this.service.getPeopleById(id)
-            .then(chosenPeople => {
-                this.setState({chosenPeople});
-            })
+
+     componentDidMount() {
+        let {id,results} = this.props;
+        console.log(results);
+        const res = results.filter(value => value.name === id);
+        this.setState({nameID: res[0]});
     }
 
     render() {
-      let {chosenPeople: {name,height,mass,eye_color}} = this.state;
+        let {nameID} = this.state;
+        console.log(nameID.name);
         return (
             <div>
-                <h3> About: {name}</h3>
-                {name &&
+                {nameID &&
+
                 <div>
-                   Height: {height};
-                   Mass:{mass};
-                   Eye: {eye_color};
-                </div>}
+                    Name: {nameID.name}
+                    Height: {nameID.height};
+                    Mass:{nameID.mass};
+                    Eye: {nameID.eye_color};
+                </div>
+                }
+
             </div>
-        );
+
+
+        )
     }
+
 }
 
 export default FullPeople;

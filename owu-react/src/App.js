@@ -6,18 +6,18 @@ class App extends Component {
     render() {
         return (
             <Router>
-              <div>
-                <ul>
-                  <li>
-                    <Link to={'/peoples'}> Show peoples</Link>
-                  </li>
-                </ul>
-                <Switch>
-                  <Route path={'/peoples'} render={() => {
-                    return <Peoples/>
-                  }}/>
-                </Switch>
-              </div>
+                <div>
+                    <ul>
+                        <li>
+                            <Link to={'/peoples'}> Show peoples</Link>
+                        </li>
+                    </ul>
+                    <Switch>
+                        <Route path={'/peoples'} render={() => {
+                            return <Peoples/>
+                        }}/>
+                    </Switch>
+                </div>
             </Router>
         );
     }
