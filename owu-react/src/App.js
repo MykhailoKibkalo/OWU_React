@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import AllUser from "./component/AllUser";
+import {Context} from "./component/services/ContextServices";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+    state = {users: []};
+
+    componentDidMount() {
+        fetch('https://jsonplaceholder.typicode.com/users')
+            .then(value => value.json())
+            .then(users => {
+                this.setState({users});
+            })
+    }
+
+    input1 = React.createRef();
+
+    render() {
+        let {users} = this.state;
+        return (
+            <div>
+                    <input ref={this.input1} onInput={this.readInput}/>
+
+                <Context.Provider value={'hello'}>
+                    <div>
+                        <AllUser item={users} key={users.id}/>
+                    </div>
+                </Context.Provider>
+            </div>
+        );
+    }
+
+    readInput = () => {
+        console.log(this.input1.current.value)
+    }
 }
 
 export default App;
