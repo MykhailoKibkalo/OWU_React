@@ -16,8 +16,8 @@ export class Service {
             .then(value => value.json())
     }
 
-    async findByName(array, id) {
-        await array.filter(value => value.name === id)
-            .then(array => array)
-    }
+//     async findByName(array, id) {
+//         await array.filter(value => value.name === id)
+//             .then(array => array)
+//     }
 }
