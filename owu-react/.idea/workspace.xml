@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a134835a-f80d-4d3c-bb7a-dc496efe0a82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../my-react-project/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../my-react-project/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-react-project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-react-project/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-react-project/src/component/user/UserAdressArray/UserAdressArray.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-react-project/src/component/user/UserArray/UserArray.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-react-project/src/component/user/UserCar/UserCar.js" beforeDir="false" />
+    <list default="true" id="a134835a-f80d-4d3c-bb7a-dc496efe0a82" name="Default Changelist" comment="useReducer with input">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,10 +12,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="less8_1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1lABLxcqKB5lftJqx1KPCn9iEdJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,11 +74,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="less8" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="useReducer with input" />
+    <option name="LAST_COMMIT_MESSAGE" value="useReducer with input" />
   </component>
 </project>
