@@ -7,7 +7,8 @@ import {createStore} from "redux";
 import {Provider} from "react-redux";
 
 const initialState = {
-    counter: 0
+    counter: 0,
+    user: {name: 'Vasya', age: 22}
 };
 
 const reducer = (state = initialState, action) => {
@@ -28,6 +29,11 @@ const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 counter: 0
+            }
+        }
+        case 'CHANGE_NAME': {
+            return {
+                ...state, user: {...state.user, name: 'IVAN'}
             }
         }
         default: {
