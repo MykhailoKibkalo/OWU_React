@@ -28,12 +28,18 @@ const reducer = (state = initialState, action) => {
         case 'RESET': {
             return {
                 ...state,
-                counter: 0
+                counter: 0, user: {...state.user, name: 'Vasya', age: 22}
+            }
+        }
+        case 'CHANGE_AGE': {
+            return {
+                ...state,
+                user: {...state.user, age: action.payload}
             }
         }
         case 'CHANGE_NAME': {
             return {
-                ...state, user: {...state.user, name: 'IVAN'}
+                ...state, user: {...state.user, name: action.payload}
             }
         }
         default: {
