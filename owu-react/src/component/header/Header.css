@@ -1,0 +1,52 @@
+.header {
+    margin: 0;
+    height: 100px;
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    margin-left: 50px;
+}
+.counter {
+    width: 200px;
+    margin-right: 150px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart {
+    position: relative;
+    width: 100px;
+    display: flex;
+
+}
+.sumCart {
+    display: none;
+    margin-top:20px;
+    margin-left: -100px;
+    background-color: #d8e3e8;
+}
+.cart:hover .sumCart{
+    display: block;
+    position: absolute;
+    z-index: 100;
+}
+
+.liked {
+    position: relative;
+    width: 100px;
+    display: flex;
+}
+.sumLike {
+    display: none;
+    margin-top:20px;
+    margin-left: -20px;
+    background-color: #d8e3e8;
+}
+.liked:hover .sumLike{
+    display: block;
+    position: absolute;
+    z-index: 100;
+}

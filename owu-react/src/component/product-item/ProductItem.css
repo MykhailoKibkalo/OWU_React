@@ -1,0 +1,115 @@
+
+.item {
+    height: 500px;
+    width: 380px;
+    border: solid black 5px;
+    margin: 20px;
+}
+
+.title {
+    margin: 10px auto;
+    text-align: center;
+    width: 95%;
+    height: 60px;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 70%;
+    width: 95%;
+}
+
+.img {
+    margin-left: 10px;
+    background-color: silver;
+    width: 45%;
+    height: 90%;
+}
+
+.description {
+    margin-right: 10px;
+    width: 45%;
+    height: 90%;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+    margin: 5px auto;
+    width: 90%;
+    height: 50px;
+}
+
+.Price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+}
+
+.btn {
+    display: flex;
+}
+
+.cartBtn {
+    width: 100px;
+    height: 35px;
+
+    margin: 10px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border: 2px solid lightgreen;
+}
+
+.cartBtn:hover {
+    background-color: lightgreen;
+    color: white;
+    border: 2px solid white;
+}
+.cartRemove {
+    background-color: lightcoral;
+    border: 2px solid white;
+}
+
+.cartRemove:hover {
+    background-color: white;
+    border: 2px solid lightcoral;
+    color: black;
+}
+
+.likeBtn {
+    width: 100px;
+    height: 35px;
+
+    margin: 10px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border: 2px solid lightblue;
+}
+
+.likeBtn:hover {
+    background-color: lightblue;
+    color: white;
+    border: 2px solid white;
+}
+.likeRemove {
+    background-color: lightcoral;
+    border: 2px solid white;
+}
+.likeRemove:hover {
+    background-color: white;
+    border: 2px solid lightblue;
+    color: black;
+}
+
+.description > p {
+    height: 100%;
+    overflow: auto;
+    word-wrap: break-word;
+}
